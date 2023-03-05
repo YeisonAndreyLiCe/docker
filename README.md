@@ -76,7 +76,7 @@ docker run -it ubuntu # keeps the process active
 docker run -it --name {container_name} ubuntu
 ```
 
-## Life cycle of a container
+## Container life cycle
 Is the main process running? If not, the container will stop.
 ```bash
 docker run --name {container_name} -d image_name tail -f /dev/null
